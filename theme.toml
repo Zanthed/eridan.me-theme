@@ -2,7 +2,7 @@ description = "A cool blog theme"
 features = "blog"
 homepage = "https://github.com/Zanthed/eridan.me-theme"
 license = "MIT"
-licenselink = "https://github.com/Zanthed/eridan.me-theme/blob/master/LICENCE.txt"
+licenselink = "https://github.com/Zanthed/eridan.me-theme/blob/main/LICENCE.txt"
 name = "eridan.me-theme"
 tags = "blog"
 
