@@ -1,11 +1,12 @@
 description = "A cool blog theme"
 features = "blog"
-homepage = "https://github.com/qua3k/blog-theme"
+homepage = "https://github.com/Zanthed/eridan.me-theme"
 license = "MIT"
-licenselink = "https://github.com/qua3k/blog-theme/blob/master/LICENSE"
-name = "blog-theme"
+licenselink = "https://github.com/Zanthed/eridan.me-theme/blob/master/LICENCE.txt"
+name = "eridan.me-theme"
 tags = "blog"
 
 [author]
-  homepage = "https://qua3k.github.io/"
-  name = "qua3k"
+  homepage = "https://eridan.me/"
+  name = "June"
+  username = "Zanthed"
