@@ -6,7 +6,7 @@
             {{- $.Param "Author.name" }}
             {{- if $.Param "Author.username" }}
                 {{- if $.Param "Author.url" }}
-                    &#40;<a href="{{- $.Param "Author.url" }}">@{{- .Params.Author.username }}</a>&#41;
+                    &#40;<a rel="me" href="{{- $.Param "Author.url" }}">@{{- .Params.Author.username }}</a>&#41;
                 {{- else }}
                     &#40;@{{ $.Param "Author.username" }}&#41;
                 {{- end }}
@@ -18,7 +18,7 @@
             {{- .Site.Author.name }}
             {{- if .Site.Author.username }}
                 {{- if .Site.Author.url }}
-                    &#40;<a href="{{- .Site.Author.url }}">@{{- .Site.Author.username }}</a>&#41;
+                    &#40;<a rel="me" href="{{- .Site.Author.url }}">@{{- .Site.Author.username }}</a>&#41;
                 {{- else }}
                     &#40;@{{- .Site.Author.username }}&#41;
                 {{- end }}
